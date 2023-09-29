@@ -1,0 +1,318 @@
+/* Header Zone */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Prompt:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+}
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+
+
+/* Menu bar */
+.menu-bar{
+    display: flex;
+    position: fixed ;
+    height: 200px;
+    background-color: rgb(185, 30, 30);
+    width: 100%;
+}
+
+
+ /* Body part */
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FFA500;
+    width: 100%;
+    z-index: 1;
+    
+
+}
+
+body ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+body ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin-right: 15%;
+    
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.banner-area{
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(black, 0.5);
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+    url('../image/lebron_banner.jpg');
+}
+
+.banner-text{
+    font-size: xx-large;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.banner-button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.innerbox-banner{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.afb-button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FFA500;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.afb-button:hover{
+    background-color: #FFA500;
+    color: white;
+    text-decoration: underline;
+}
+
+.firstbox{
+    display: flex;
+    justify-content: center;
+}
+
+.picbox{
+    width: 100%;
+    aspect-ratio : 1/1;
+    height: 500px;
+    display: block;
+}
+
+
+.introduce-box{
+    background-color: rgb(227, 222, 222);
+    border: 5px solid rgb(29, 7, 151);
+    border-radius: 20px;
+    width: 900px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.whitebox{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+.whiteboxclone{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 0cm;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+}
+
+.whiteboxclone:hover{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 0cm;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+/* adviser */
+.Advisor-page{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #FFA500;
+    color: #fff;
+    text-decoration: underline;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
+
+/* Footter */
+footer{
+    margin: 0;
+    height: 100px;
+}
+
+.footerbox{
+    background-color: #FFA500;
+    margin: 0;
+    padding: 0;
+
+}
+
+.afooter{
+    text-decoration: none;
+    color: rgb(0, 0, 0);"
+}
+
+.afooter:hover{
+    text-decoration: underline;
+}
+
+/* Activities */
+.Acti-page{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+}
+
+
+/* tools */
+a{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.a-nothing{
+    text-decoration: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+/* recycle bin
+
+
+.topbar{
+    list-style-type: none;
+    background-color: #dddddd;
+    list-style-type: none;
+    margin-bottom:20px;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.abar{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-decoration: none;
+    color: black;"
+}
+
+.abar:hover{
+    text-decoration: underline;
+}
+
+*/

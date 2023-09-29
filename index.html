@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body> 
+    <!-- Menu bar -->
+    <div class="navbar">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" class="logo" target="_blank">Toninwza</a>
+        <ul class="ul-navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="html/myAdvisor.html">My advisor</a></li>
+            <li><a href="html/myActivities.html">Main activities</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Activities details
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="html/CSTUOrientation.html">CSTUOrientation</a>
+                    <a href="html/DomeBasket.html">DomeBasket</a>
+                    <a href="html/csesport.html">csesport</a>
+                  </div>
+            </div>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="banner-area" id="home">
+        <div class="innerbox-banner" >
+            <div>
+            <p class="banner-text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to<br>
+                tonrak homepage nakub &lt;3 <br>
+            </p>
+            </div>
+            <div>
+                <button onclick="document.location='#info'" class="banner-button afb-button" >
+                    < Learn More > 
+                </button> 
+            </div>
+        </div>   
+    </div>
+    
+
+    <div class="firstbox" id="info">
+        <div class="whitebox">
+        <h1 style="text-align: center;"> ข้อมูลคร้าบ </h1>
+        <p id="Name"><b>ชื่อ :</b> นายกีรติกร บุญเจริญ</p>
+        <p id="Nickname"><b>ชื่อเล่น</b> : ต้นรัก</p>
+        <p><b>เกิดวันที่</b> : 18 กุมภาพันธ์ 2548 </p>
+        <p><b>อาหารที่ชอบ</b> : อะไรก็ได้ที่ได้กินกับแก &gt;&lt;</p>
+        <p><b>กีฬาที่ชอบ</b> : บาสเก็ตบอล </p>
+        <p><b>ทีมบาสที่ชอบ</b> : เลเกอร์ทั้งจุย &lt;3</p>
+        
+        <p> ลองเขียนชื่อของคุณมาสิ </p>
+        <form id="Surprise">
+            <label>Name</label>
+                <input>
+            <label>Last name</label>
+                <input>
+            <label for="birthday">ว/ด/ป เกิด:</label>
+                <input type="date" id="birthday" name="birthday">
+        </form>
+        <div>  
+            <button style="margin-top:10px ; margin-left: 5px;">
+                <a style="text-decoration: none; color: black;" href="https://www.youtube.com/watch?v=kQssJIEEp0k" target=”_blank”>Submit</a>
+            </button>
+        </div>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <div class="whitebox">
+            <p style="text-align: center;font-size: x-large;">
+                Picture
+            </p>
+            <p style="text-align:center;">
+                <img src="image/picpig.jpg" style="text-align: center;margin: 0;" width="300" id ="Picture"> <br>
+            </p>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; text-align: center;">
+        <div class="whitebox">
+            <p style="font-size: x-large;">Self-Introducing Video</p>
+            <video src='VDO/self.mp4'  width = "560" height = "300" controls id="Video"> </video>
+        </div>
+    </div>
+    
+    <footer id="Contact">
+        <div class="footerbox">
+            <p style="text-align: center;color: rgb(0, 0, 0);"> 
+                ต้นรักโฮมเพจจึถึ <br> <br> <br>
+                <u>Contact </u><br>
+                <a href="https://www.facebook.com/Kiratikornnnn/" class="afooter">FB : Kiratikorn Booncharoen</a> <br>
+                <a href="https://www.instagram.com/tonkeerati_kb/" class="afooter"> Ig : tonkeerati_kb </a> <br>
+
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
